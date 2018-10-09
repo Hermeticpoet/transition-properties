@@ -3,3 +3,10 @@
   width: 150px;
   height: 150px;
 }
+
+.box:hover {
+  transition-property: background-color;
+  background-color: #e84610;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
